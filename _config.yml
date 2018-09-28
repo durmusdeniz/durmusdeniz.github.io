@@ -1,0 +1,35 @@
+title: Deniz Durmus
+description: > # this means to ignore newlines until "baseurl:"
+  Software Engineer Deniz Durmus Blog Programming Java
+permalink: ':title/'
+baseurl:  # the subpath of your site, e.g. /blog
+url:  # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Deniz Durmus # add your name
+author-img: deniz-durmus.jpg # add your photo
+about-author: Software Engineer. # add description
+social-twitter: ""
+social-facebook: ""
+social-github: durmusdeniz
+social-linkedin: deniz-durmus-ming
+social-email: ""
+
+# Disqus
+discus-identifier: "" # add your discus identifier
+
+# Tracker
+analytics: "" # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+paginate: 8
+paginate_path: "/page/:num"
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
